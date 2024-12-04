@@ -76,7 +76,7 @@ In the example list above, the pairs and distances would be as follows:
 
 To find the **total distance** between the left list and the right list, add up
 the distances between all of the pairs you found. In the example above, this is
-`2 + 1 + 0 + 1 + 2 + 5`, a total distance of `**11**`!
+`2 + 1 + 0 + 1 + 2 + 5`, a total distance of **`11`**!
 
 Your actual left and right lists contain many location IDs. **What is the total
 distance between your lists?**
@@ -124,7 +124,7 @@ For these example lists, here is the process of finding the similarity score:
   score again increases by `9`.
 
 So, for these example lists, the similarity score at the end of this process is
-`**31**` `(9 + 4 + 0 + 0 + 9 + 9)`.
+**`31`** `(9 + 4 + 0 + 0 + 9 + 9)`.
 
 Once again consider your left and right lists. **What is their similarity
 score?**

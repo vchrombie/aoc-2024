@@ -50,7 +50,7 @@ rules:
 - `8 6 4 4 1`: **Unsafe** because `4 4` is neither an increase or a decrease.
 - `1 3 6 7 9`: **Safe** because the levels are all increasing by 1, 2, or 3.
 
-So, in this example, `2` reports are safe.
+So, in this example, **`2`** reports are safe.
 
 Analyze the unusual data from the engineers. **How many reports are safe?**
 
@@ -75,7 +75,7 @@ More of the above example's reports are now safe:
 - `8 6 4 4 1`: **Safe** by removing the third level, `4`.
 - `1 3 6 7 9`: **Safe** without removing any level.
 
-Thanks to the Problem Dampener, `**4**` reports are actually **safe**!
+Thanks to the Problem Dampener, **`4`** reports are actually **safe**!
 
 Update your analysis by handling situations where the Problem Dampener can
 remove a single level from unsafe reports. **How many reports are now safe?**
@@ -89,5 +89,7 @@ remove a single level from unsafe reports. **How many reports are now safe?**
 
 ## Notes
 
-- [Apply function to list in Python - Flexiple](https://flexiple.com/python/apply-function-to-list)
-- [Built-in Functions; Python 3 documentation](https://docs.python.org/3/library/functions.html)
+- [Apply function to list in Python -
+  Flexiple](https://flexiple.com/python/apply-function-to-list)
+- [Built-in Functions; Python 3
+  documentation](https://docs.python.org/3/library/functions.html)
